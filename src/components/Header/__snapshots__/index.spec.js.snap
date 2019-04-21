@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#Button Renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 50,
+      "minHeight": 70,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 28,
+        "fontWeight": "700",
+        "textAlign": "center",
+      }
+    }
+  >
+    Test Title
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 28,
+        "fontWeight": "700",
+        "textAlign": "center",
+      }
+    }
+  >
+    Test subtitle
+  </Text>
+</View>
+`;

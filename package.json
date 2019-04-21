@@ -1,0 +1,44 @@
+{
+  "name": "triviaGame",
+  "version": "0.0.1",
+  "private": true,
+  "jest": {
+    "preset": "react-native"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "eslint .",
+    "test": "jest",
+    "ios": "yarn react-native run-ios",
+    "android": "yarn react-native run-android"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "react": "16.6.1",
+    "react-native": "0.57.5",
+    "react-native-swiper": "^1.5.14",
+    "react-navigation": "^2.11.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "9.0.0",
+    "babel-jest": "24.1.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "prettier": "^1.16.4",
+    "prettier-eslint": "^8.8.2",
+    "react-test-renderer": "16.5.0"
+  }
+}

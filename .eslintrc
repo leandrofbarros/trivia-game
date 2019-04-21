@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "semi": ["error", "never"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/prefer-default-export": 0,
+    "no-underscore-dangle": 0,
+    "import/no-named-as-default": 0,
+    "react/prefer-stateless-function": 0
+  },
+  "globals": {
+    "Headers": true,
+    "fetch": true,
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "jest": true,
+    "__DEV__": true,
+    "__TEST__": false
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  }
+}
